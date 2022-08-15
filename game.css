@@ -48,3 +48,38 @@ body{
     background-color: red;
     opacity: 0.8;
 }
+
+@media (max-width : 1248px) and (min-width:991px){   
+    #title{
+        font-size: 300%;
+
+    }
+    .btn{
+        border: 7px solid black;
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+    }
+    
+}
+
+@media (max-width : 991px){
+   #title{
+    font-size: 220%;
+   }
+   .btn{
+    border: 5px solid black;
+    height: 120px;
+    width: 120px;
+    border-radius: 13px;
+    margin: auto 10px auto;
+   }
+   .container{
+    position: relative;
+    top: 40%;
+    width: 100%;
+   }
+   .row{
+    padding: 10px 0 10px 0;
+   }
+}
